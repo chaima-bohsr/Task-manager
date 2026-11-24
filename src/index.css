@@ -1,1 +1,12 @@
 @import "tailwindcss";
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.modal-doodle-bg {
+  background-color: #faf5eb;
+  background-image:
+    linear-gradient(rgba(250, 245, 235, 0.58), rgba(250, 245, 235, 0.58)),
+    url("/photo.jpg");
+  background-repeat: repeat;
+  background-size: 280px;
+}
